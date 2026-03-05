@@ -54,7 +54,7 @@ I specialize in bridging the gap between complex AI research and scalable, priva
 ---
 
 ## 📊 GitHub Stats
-![Chinmay's GitHub stats](https://github-readme-stats.vercel.app/api?username=Chinmay-10&show_icons=true&theme=dark)
+![Top Languages](https://github-readme-stats.vercel.app/api/top-langs/?username=Chinmay-10&layout=compact&theme=dark)
 
 ---
 
