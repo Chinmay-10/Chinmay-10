@@ -61,7 +61,7 @@ I specialize in bridging the gap between complex AI research and scalable, priva
 ## 📬 Let's Build Something
 If you need a robust AI pipeline, a private document assistant, or high-scale Python automation, I'm open to freelance collaborations and roles.
 
-* **LinkedIn:** [linkedin.com/in/your-profile-url](https://www.linkedin.com/in/chinmay-patil-10xyz/) * **Email:** [your.email@example.com](patilchinmay100@gmail.com) * **Location:** India (Available for Global Remote Work 🌍)
+* **LinkedIn:** [[linkedin.com/in/your-profile-url](https://www.linkedin.com/in/chinmay-patil-10xyz/)] * **Email:** [patilchinmay100@gmail.com] * **Location:** India (Available for Global Remote Work 🌍)
 
 ---
 *“Code is easy. Systems that solve problems are hard. I build the latter.”*
