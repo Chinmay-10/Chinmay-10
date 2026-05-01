@@ -1,6 +1,6 @@
 <div align="center">
 
-[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=00D4FF&center=true&vCenter=true&width=700&lines=AI+%26+ML+Engineer;Federated+Learning+Researcher;AI+Pipeline+Engineer+%40+Cosmic+Tech;Building+Private%2C+Production-Grade+AI)](https://git.io/typing-svg)
+[![Typing SVG](https://readme-typing-svg.demolab.com?font=Fira+Code&weight=700&size=28&pause=1000&color=00D4FF&center=true&vCenter=true&width=700&lines=ML+Engineer+%7C+LLM+Systems;RAG+%7C+Federated+Learning+%7C+Backend+AI;Published+Researcher+%40+ICPCSN+2026;Building+Production-Grade+AI+Systems)](https://git.io/typing-svg)
 
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:00D4FF,100:0D1117&height=120&section=header&text=Chinmay%20Patil&fontSize=42&fontColor=FFFFFF&fontAlignY=65&animation=fadeIn" width="100%"/>
 
@@ -17,11 +17,16 @@
 
 ## 🧠 Who I Am
 
-> **Final-Year B.E. in AI & Data Science** @ New Horizon Institute of Technology & Management, Thane (2022–2026)
-> 
-> I don't just train models — I **architect production AI systems** that run privately, scale deterministically, and survive real-world edge cases. My work sits at the intersection of **ML systems engineering**, **privacy-preserving AI**, and **GPU-accelerated pipelines**.
+> **Machine Learning Engineer | LLM Systems & Privacy-Preserving AI**
+> Final-Year B.E. in AI & Data Science @ New Horizon Institute of Technology & Management, Thane (2022–2026)
 
-Currently building **cinematic AI video generation (SHAMBALA)** at Cosmic Technology Lab — a pipeline that turns static images into 3D-parallax short films using depth estimation, layered compositing, and multi-model orchestration.
+Final-year AI & Data Science undergraduate with hands-on experience building **production-grade ML systems**, **LLM-based applications**, and **federated learning pipelines**. Skilled in designing end-to-end AI workflows, backend APIs, and scalable inference systems with a focus on **privacy and reproducibility**.
+
+My work spans:
+- 🔍 Retrieval-Augmented Generation (RAG) & LLM Systems
+- 🔒 Privacy-Preserving ML (Federated Learning + Differential Privacy)
+- ⚙️ Backend AI Systems (FastAPI, REST APIs)
+- 📦 Data Pipelines, Vector Retrieval & Production Deployment
 
 ---
 
@@ -30,60 +35,54 @@ Currently building **cinematic AI video generation (SHAMBALA)** at Cosmic Techno
 ### 🚀 AI Pipeline Engineer Intern — Cosmic Technology Lab
 **Jan 2026 – Present | Mumbai, India**
 
-> *"What does it take to go from a static image to a cinematic vertical video — reliably, reproducibly, at scale?"*
+- Architected a **scalable knowledge pipeline** for AI systems, enabling structured storage, retrieval, and processing for LLM-based applications
+- Designed a **dual-layer data architecture** (SQLite + vector DB) to support high-performance RAG workflows and semantic search
+- Engineered **data processing and deduplication pipelines** using hashing and normalization, improving retrieval accuracy across multi-source data
+- Built **backend APIs and modular pipeline components** in Python for efficient querying, filtering, and production-grade data handling
 
-Building **SHAMBALA** — a modular, fault-tolerant AI video generation pipeline for cinematic short-form content:
+**Focus:** RAG Systems • Data Pipelines • Backend AI • Retrieval Systems
 
-- 🏗️ **Architected** a deterministic multi-stage pipeline (M2–M8) with manifest-based checkpointing for reproducible outputs and fault-tolerant execution
-- 🌊 **Engineered** a 2.5D parallax motion engine using MiDaS depth maps, layered compositing, and camera motion modeling to simulate 3D from static images
-- 🔬 **Integrated** SAM2 (segmentation), LaMa (inpainting), and planned AnimateDiff/LivePortrait into a unified production workflow
-- ⚡ **Optimized** GPU-aware pipeline stages with sequential VRAM management, graceful fallback, and structured directory contracts
-- 🎬 **Delivered** audio-video synchronization via FFmpeg assembly producing final 1080×1920 @ 30FPS vertical video outputs
-- 🛡️ **Built** a QC framework using frame-level validation and artifact analysis for motion stability
+---
 
-**Stack:** `Python` `SAM2` `LaMa` `MiDaS` `AnimateDiff` `FFmpeg` `CUDA` `Docker` `CLI Orchestration`
+## 📄 Research & Publications
+
+### 🏆 Privacy-Preserving Personalized Federated Learning for Intrusion Detection Systems
+> **Accepted at ICPCSN 2026 | Presentation Scheduled**
+
+- Proposed a federated learning framework for intrusion detection under **non-IID data distributions**
+- Implemented **Personalized Federated Learning (PFL)** with differential privacy constraints
+- Achieved **~91% detection accuracy** with improved worst-case client performance
+- Evaluated on **NSL-KDD and CICIDS2017** datasets using multi-client simulation
 
 ---
 
 ## 🔥 Featured Projects
 
-### 🔐 PrivatAI-RAG — Zero-Trust Local RAG System
+### 🔐 Private AI RAG System
 [![GitHub](https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github)](https://github.com/Chinmay-10/privatai-rag)
 
-> **The Problem:** Enterprise teams need document Q&A — but can't afford to send sensitive data to OpenAI or Google. Every query to a cloud LLM is a potential compliance violation.
+> **End-to-end Retrieval-Augmented Generation system for secure, scalable AI applications**
 
-> **My Solution:** A fully local, zero-trust RAG system where **your documents never leave your machine**.
+- Built **document ingestion → embedding → retrieval → response pipeline**
+- Integrated **FastAPI backend + Qdrant vector database + local LLM inference**
+- Implemented **JWT authentication + RBAC** for secure, role-based access
+- Dockerized full stack for **reproducible local deployment**
 
-**What makes it production-grade:**
-- 🔑 **JWT-based auth + RBAC** — role-based access control so only the right people read the right documents
-- 🧠 **Qdrant vector DB** — semantic search over private document embeddings using locally-hosted models
-- 🦙 **Ollama integration** — runs LLMs (Mistral, LLaMA) entirely on local hardware, zero cloud dependency
-- 🐳 **Fully Dockerized** — Backend (FastAPI) + Vector DB (Qdrant) + LLM (Ollama) in a single `docker-compose up`
-
-```
-[User Upload] → [FastAPI + JWT Auth] → [Qdrant Embeddings] → [Ollama LLM] → [Answer]
-      ↑                                                                           ↓
-   RBAC Check ←←←←←←←←←←←←←←←←←←←← 100% Local. Zero Cloud. ←←←←←←←←←←←←←←←←
-```
-
-**Stack:** `FastAPI` `Qdrant` `Ollama` `React` `Docker` `JWT` `Python`
+**Stack:** `FastAPI` `Qdrant` `Ollama` `Docker` `Python` `JWT`
 
 ---
 
-### 🛡️ FedIDS — Federated Intrusion Detection for Cyber-Physical Systems
+### 🛡️ Federated Intrusion Detection System (FedIDS)
 [![GitHub](https://img.shields.io/badge/View_Repo-181717?style=for-the-badge&logo=github)](https://github.com/Chinmay-10/FedIDS-CyberPhysicalSystems)
 
-> **The Problem:** Industrial networks (power grids, hospitals, factories) need threat detection — but can't centralize sensitive operational data for training. Standard ML requires a data lake. Federated environments don't have one.
+> **Privacy-preserving ML system for distributed intrusion detection — published research**
 
-> **My Solution:** A privacy-preserving intrusion detection system that trains across distributed nodes **without ever sharing raw data**.
+- Designed **FedAvg-based distributed training pipeline** for cybersecurity datasets
+- Addressed **non-IID data challenges** and improved model generalization across clients
+- Implemented **Personalized FL with Differential Privacy** constraints
+- Achieved **~91% accuracy** on NSL-KDD & CICIDS2017 — accepted at **ICPCSN 2026**
 
-**Research-grade results:**
-- 🎯 **91% accuracy** on NSL-KDD & CICIDS2017 — production-viable threat detection
-- 🔏 **Differential Privacy constraints** — mathematically bounded privacy guarantees per training round
-- 📊 **Personalized Federated Learning (PFL)** — handles Non-IID data distributions across heterogeneous clients
-- 📈 **Significant improvement in worst-case client performance** — no node left behind in the federation
-
-**Stack:** `Python` `PyTorch` `Federated Learning` `Differential Privacy` `NSL-KDD` `CICIDS2017`
+**Stack:** `PyTorch` `Federated Learning` `Differential Privacy` `Python`
 
 ---
 
@@ -94,31 +93,26 @@ Building **SHAMBALA** — a modular, fault-tolerant AI video generation pipeline
 **Languages & Core**
 
 ![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![Bash](https://img.shields.io/badge/Bash-4EAA25?style=for-the-badge&logo=gnubash&logoColor=white)
+![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![SQL](https://img.shields.io/badge/SQL-4479A1?style=for-the-badge&logo=postgresql&logoColor=white)
 
 **AI / ML**
 
 ![PyTorch](https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white)
 ![scikit-learn](https://img.shields.io/badge/scikit--learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white)
-![OpenCV](https://img.shields.io/badge/OpenCV-5C3EE8?style=for-the-badge&logo=opencv&logoColor=white)
-![CUDA](https://img.shields.io/badge/CUDA-76B900?style=for-the-badge&logo=nvidia&logoColor=white)
+![HuggingFace](https://img.shields.io/badge/HuggingFace-FFD21E?style=for-the-badge&logo=huggingface&logoColor=black)
 
 **Backend & APIs**
 
 ![FastAPI](https://img.shields.io/badge/FastAPI-009688?style=for-the-badge&logo=fastapi&logoColor=white)
 ![Docker](https://img.shields.io/badge/Docker-2496ED?style=for-the-badge&logo=docker&logoColor=white)
-![Linux](https://img.shields.io/badge/Linux-FCC624?style=for-the-badge&logo=linux&logoColor=black)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-**Databases & Vector Search**
+**Data & Retrieval**
 
 ![Qdrant](https://img.shields.io/badge/Qdrant-DC244C?style=for-the-badge&logo=qdrant&logoColor=white)
-![PostgreSQL](https://img.shields.io/badge/PostgreSQL-336791?style=for-the-badge&logo=postgresql&logoColor=white)
-
-**MLOps & Tools**
-
-![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
-![GitHub Actions](https://img.shields.io/badge/GitHub_Actions-2088FF?style=for-the-badge&logo=githubactions&logoColor=white)
-![FFmpeg](https://img.shields.io/badge/FFmpeg-007808?style=for-the-badge&logo=ffmpeg&logoColor=white)
+![SQLite](https://img.shields.io/badge/SQLite-003B57?style=for-the-badge&logo=sqlite&logoColor=white)
+![Ollama](https://img.shields.io/badge/Ollama-000000?style=for-the-badge&logo=ollama&logoColor=white)
 
 </div>
 
@@ -137,24 +131,27 @@ Building **SHAMBALA** — a modular, fault-tolerant AI video generation pipeline
 
 ```python
 target = {
-    "role"     : ["ML Engineer", "AI Systems Engineer", "MLOps Engineer"],
-    "location" : "Mumbai (Preferred) | Remote",
-    "timeline" : "May 2026",
-    "ctc"      : "15 LPA",
-    "strengths": ["Production AI Pipelines", "Privacy-Preserving ML",
-                  "GPU Systems", "Backend AI Integration"]
+    "role"     : ["ML Engineer", "AI Engineer", "GenAI Engineer"],
+    "focus"    : ["RAG Systems", "LLMs", "AI Pipelines", "Privacy-Preserving ML"],
+    "strength" : ["Production Systems", "Backend AI", "Published Research"],
+    "location" : "Mumbai | Open to Remote",
+    "ctc"      : "15 LPA"
 }
 ```
 
-If you're building systems that need **private, reproducible, production-grade AI** — let's talk.
-
-📩 **patilchinmay100@gmail.com**
-
 ---
+
+## 📬 Let's Connect
+
+<p align="center">
+  <a href="mailto:patilchinmay100@gmail.com"><img src="https://img.shields.io/badge/Email-patilchinmay100%40gmail.com-D14836?style=for-the-badge&logo=gmail&logoColor=white"/></a>
+  <a href="https://www.linkedin.com/in/chinmay-patil-10xyz"><img src="https://img.shields.io/badge/LinkedIn-Connect-0077B5?style=for-the-badge&logo=linkedin&logoColor=white"/></a>
+  <a href="https://github.com/Chinmay-10"><img src="https://img.shields.io/badge/GitHub-Follow-181717?style=for-the-badge&logo=github&logoColor=white"/></a>
+</p>
 
 <div align="center">
 <img src="https://capsule-render.vercel.app/api?type=waving&color=0:0D1117,50:00D4FF,100:0D1117&height=80&section=footer" width="100%"/>
 
-*"The best AI systems are the ones that work reliably at 3am without you."*
+*"I don't just write Python — I build intelligent systems that work in production."*
 
 </div>
