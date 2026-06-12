@@ -18,9 +18,9 @@
 ## 🧠 Who I Am
 
 > **Machine Learning Engineer | LLM Systems & Privacy-Preserving AI**
-> Final-Year B.E. in AI & Data Science @ New Horizon Institute of Technology & Management, Thane (2022–2026)
+> B.E. in AI & Data Science @ New Horizon Institute of Technology & Management, Thane (2022–2026)
 
-Final-year AI & Data Science undergraduate with hands-on experience building **production-grade ML systems**, **LLM-based applications**, and **federated learning pipelines**. Skilled in designing end-to-end AI workflows, backend APIs, and scalable inference systems with a focus on **privacy and reproducibility**.
+AI & Data Science undergraduate with hands-on experience building **production-grade ML systems**, **LLM-based applications**, and **federated learning pipelines**. Skilled in designing end-to-end AI workflows, backend APIs, and scalable inference systems with a focus on **privacy and reproducibility**.
 
 My work spans:
 - 🔍 Retrieval-Augmented Generation (RAG) & LLM Systems
